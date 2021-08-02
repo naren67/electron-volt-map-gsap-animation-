@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 10vh;
+    padding: 0px 80px;
+}
+
+.header__left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__left p{
+    margin-top: 14px;
+}
+
+.header__left img{
+    margin-right: 20px;
+}
+
+.header__left p{
+    font-size: 40px;
+}
+
+.header__left p{
+    display: flex;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__right p:nth-child(1)
+{
+    margin-right: 25px;
+}
+
+.header__right p:nth-child(2)
+{
+    margin-right: 25px;
+}
+
+.more{
+    background: black;
+    color: white;
+    width: 80px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.more__image{
+    color: white;
+    margin-left: 5px;
+    width: 12px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.lang{
+    color: white;
+    background: black;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.avatar p{
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 8px;
+}
+
+
+/* body */
+
+.main{
+    width: 100%;
+    height: 90vh;
+    background: cornflowerblue;
+    background-image: url(./image/qingbao-meng-01_igFr7hd4-unsplash.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top__left__options{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+
+.top__left__top{
+    width: 333px;
+    height: 35px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.electric{
+    background: black;
+    padding: 8.4px;
+    position: absolute;
+    right: 0px;
+    border-radius: 6px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    cursor: pointer;
+    color: white;
+}
+
+.electric__arrow{
+    transform: rotate(-90deg);
+}
+
+.more__close_css{
+    height: 12px;
+    margin-left: 8px;
+}
+
+
+.top__left__bottom{
+    width: 333px;
+    height: 140px;
+    background: white;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8px;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.option__one{
+    width: 100%;
+    display: flex;
+    justify-content: space-around ;
+    text-align: left;
+    cursor: pointer;
+}
+
+.option__two{
+    width: 100%;
+    display: flex;
+    justify-content: space-around ;
+    cursor: pointer;
+}
+
+.option__three{
+    width: 100%;
+    display: flex;
+    justify-content: space-around ;
+    cursor: pointer;
+}
+
+
+/* social__apps */
+
+
+.social__apps{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.social__apps__top{
+    width: 333px;
+    height: 35px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    padding: 20px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.social__arrow{
+    transform: rotate(-90deg);
+    width: 14px;
+}
+
+.none{
+    visibility: hidden;
+}
+
+.social__apps__bottom{
+    background: white;
+    border-radius: 6px;
+    width: 333px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.app__top{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.app__top img{
+    cursor: pointer;
+}
+
+.app__bottom{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social__apps__bottom img{
+    width: 35px;
+    height: 35px;
+}
+
+
+/* top__right__options */
+
+.top__right__options{
+    position: absolute;
+    top: 100px;
+    right: 30px;
+}
+
+.top__right__top{
+    width: 333px;
+    height: 35px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    padding: 20px;
+    position: relative;
+}
+
+.top__right__top img{
+    background: black;
+    padding: 10px;
+    position: absolute;
+    right: 0px;
+    border-radius: 6px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    cursor: pointer;
+}
+
+.top__right__top input{
+    width: 80%;
+    padding: 6px 0px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+
+
+.top__right__bottom{
+    background: white;
+    border-radius: 6px;
+    margin-top: 8px;
+    width: 333px;
+    height: 200px;
+    display: flex;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    /* pointer-events: none; */
+}
+
+.gap{
+    margin-right: 10px;
+}
+
+.one{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.legend{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 45px;
+}
+
+.two{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.favorite{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.trip{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.three{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.four{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/* center__bottom */
+
+
+.center__bottom{
+    position: absolute;
+    left: 48%;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.center__bottom__left{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 35px;
+    border-radius: 6px;
+    background: white;
+}
+
+.plan{
+    display: flex;
+    align-items: center;
+    border-right: 0.1px solid black;
+    height: 100%;
+    padding-right: 14px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.plan img{
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.satellite{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.satellite img{
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.center__bottom__right{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: white;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+/* bottom__right */
+
+
+.bottom__right{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+
+.guy{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+}
+
+
+.plus__minus{
+    display: flex;
+    flex-direction: column;
+    width: 35px;
+    height: 60px;
+    border-radius: 6px;
+    background: white;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.plus__minus img{
+    width: 18px !important;
+    cursor: pointer;
+}
