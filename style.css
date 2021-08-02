@@ -112,7 +112,7 @@ body{
 .main{
     width: 100%;
     height: 92vh;
-    background: cornflowerblue;
+    background: rgb(255, 255, 255);
     background-image: url(./image/qingbao-meng-01_igFr7hd4-unsplash.jpg);
     object-fit: cover;
     background-position: center;
