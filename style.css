@@ -208,7 +208,7 @@ body{
 }
 
 .social__apps__top{
-    width: 333px;
+    width: 250px;
     height: 35px;
     background: white;
     display: flex;
@@ -232,7 +232,7 @@ body{
 .social__apps__bottom{
     background: white;
     border-radius: 6px;
-    width: 333px;
+    width: 250px;
     height: 140px;
     display: flex;
     flex-direction: column;
