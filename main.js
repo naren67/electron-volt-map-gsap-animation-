@@ -48,7 +48,8 @@ t2.to('.top__left__bottom',0.5, {
     }
 ).to(
     '.top__right__options',0.2,{
-        display : 'none'
+        // display : 'none'
+        x: '150%'
     },'-=1'
 )
 
