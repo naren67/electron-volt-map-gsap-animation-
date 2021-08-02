@@ -46,6 +46,10 @@ t2.to('.top__left__bottom',0.5, {
     '.electric__arrow',0.3,{
         transform: 'rotate(360deg)'
     }
+).to(
+    '.top__right__options',0.2,{
+        display : 'none'
+    },'-=1'
 )
 
 // electric.addEventListener('click', ()=>{
@@ -54,7 +58,7 @@ t2.to('.top__left__bottom',0.5, {
 
 electric.addEventListener('click', ()=>{
 
-if(t1.isActive()){
+if(t2.isActive()){
     e.preventDefault()
     e.stopImmediatePropagation()
     return false
@@ -89,7 +93,7 @@ t3.to('.social__apps__bottom',0.5, {
 
 social__apps__top.addEventListener('click', ()=>{
 
-if(t1.isActive()){
+if(t3.isActive()){
     e.preventDefault()
     e.stopImmediatePropagation()
     return false
